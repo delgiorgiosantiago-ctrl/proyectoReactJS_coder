@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="64" viewBox="0 0 320 64" role="img" aria-label="ROMA Street logo">
+  <defs>
+    <linearGradient id="romaRed" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ff2d2d"/>
+      <stop offset="1" stop-color="#b00020"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Icono minimal (arco/coliseo) -->
+  <g transform="translate(8,10)">
+    <path d="M22 0 C12 0 4 8 4 18 v18 c0 2 2 4 4 4 h28 c2 0 4-2 4-4 V18 C40 8 32 0 22 0Z"
+          fill="none" stroke="url(#romaRed)" stroke-width="3" />
+    <path d="M12 40 V18 c0-6 4-10 10-10 s10 4 10 10 v22"
+          fill="none" stroke="url(#romaRed)" stroke-width="3" stroke-linecap="round"/>
+    <path d="M4 28 H40" fill="none" stroke="url(#romaRed)" stroke-width="3" stroke-linecap="round"/>
+  </g>
+
+  <!-- Texto -->
+  <g transform="translate(64,12)">
+    <text x="0" y="26" font-family="system-ui, -apple-system, Segoe UI, Roboto, Arial" font-size="28" font-weight="800" fill="#ffffff" letter-spacing="1">
+      ROMA
+    </text>
+    <text x="0" y="48" font-family="system-ui, -apple-system, Segoe UI, Roboto, Arial" font-size="18" font-weight="600" fill="#d6d6d6" letter-spacing="2">
+      STREET
+    </text>
+  </g>
+</svg>

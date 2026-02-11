@@ -39,7 +39,7 @@ export const products = [
     {
     id: '4',
     title: 'Remera Roma Basic',
-    price: 19999,
+    price: 29999,
     category: 'remeras',
     stock: 20,
     sizes: ['S','M','L','XL'],
@@ -49,7 +49,7 @@ export const products = [
     {
     id: '5',
     title: 'Remera Roma Oversize',
-    price: 22999,
+    price: 32999,
     category: 'remeras',
     stock: 12,
     sizes: ['S','M','L','XL'],

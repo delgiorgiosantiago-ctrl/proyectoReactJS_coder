@@ -1,11 +1,13 @@
+import { Link } from 'react-router-dom'
+
 export default function CartWidget() {
   return (
-    <a
-      href="#"
-      className="d-flex align-items-center gap-2 text-decoration-none text-light"
-    >
-      <span style={{ fontSize: '1.4rem' }}>🛒</span>
-      <span className="badge bg-danger">3</span>
-    </a>
+    <Link to="/" className="position-relative text-white fs-4">
+      <i className="bi bi-cart3"></i>
+
+      <span className="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+        3
+      </span>
+    </Link>
   )
 }

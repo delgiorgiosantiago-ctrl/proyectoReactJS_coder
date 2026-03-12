@@ -1,18 +1,33 @@
 import { Link } from 'react-router-dom'
 
-function ItemCard({ id, title, price, img }) {
+function ItemCard({ id, title, price, image }) {
   return (
-    <div className="card h-100">
-      <img src={img} className="card-img-top product-img" alt={title} />
-      <div className="card-body d-flex flex-column">
-        <h5>{title}</h5>
-        <p>${price}</p>
 
-        <Link to={`/item/${id}`} className="btn btn-dark mt-auto">
-          Ver detalle
-        </Link>
+    <Link
+      to={`/item/${id}`}
+      style={{ textDecoration: "none", color: "inherit" }}
+    >
+
+      <div className="card product-card h-100">
+
+        <img
+          src={image}
+          className="card-img-top product-img"
+          alt={title}
+        />
+
+        <div className="card-body d-flex flex-column">
+
+          <h5>{title}</h5>
+
+          <p>${price}</p>
+
+        </div>
+
       </div>
-    </div>
+
+    </Link>
+
   )
 }
 
